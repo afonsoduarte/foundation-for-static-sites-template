@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foundation</title><link rel="stylesheet" href="./stylesheets/app.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+</head>
+
+<body>
+
+<header id="page-header" class="page-header">
+  <nav class="page-nav" role="navigation">
+    <ul class="page-nav__list">
+      <li><a href="#the-film" title="The Film">The Film</a></li>
+      <li><a href="#the-world-of-love" title="The World of Love">The World of Love</a></li>
+      <li><a href="#the-collection" title="The Collection">The Collection</a></li>
+      <li><a href="#share" title="Share">Share</a></li>
+    </ul>
+  </nav>
+  <button class="sound-toggle">Sound on/off</button>
+</header><!-- /page-header -->
+
+<main class="page-content" role="main">
+  <section class="the-film" id="the-film">
+    <h1>Fall in love</h1>
+    <button class="scroll">Scroll to discover more</button>
+  </section>
+
+  <section class="the-world-of-love" id="the-world-of-love">
+
+    <div class="the-fringe-scarf">
+      <img src="images/the-fringe-scarf.jpg" alt="" usemap="#the-fringe-scarf__map" />
+      <map name="the-fringe-scarf__map">
+        <area shape="poly" coords="305, 667, 336, 546, 371, 497, 441, 490, 493, 518, 579, 589, 601, 640, 598, 673" class="trousers">
+        <area shape="poly" coords="513, 190, 587, 272, 599, 334, 599, 448, 562, 444, 532, 370, 504, 326, 476, 263, 470, 233" class="jumper">
+        <area shape="poly" coords="319, 234, 342, 225, 353, 212, 387, 200, 408, 203, 400, 247, 391, 287, 387, 342, 383, 350, 366, 319, 344, 269" class="jumper">
+        <area shape="poly" coords="417, 202, 489, 187, 506, 191, 473, 226, 481, 295, 506, 340, 525, 358, 551, 419, 558, 445, 434, 416, 386, 420, 362, 424, 327, 352, 321, 295, 322, 255, 332, 254, 352, 281, 368, 333, 387, 358, 399, 256" class="vest">
+      </map>
+    </div>
+
+    <div itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
+      <span itemprop="name">Title of Video</span>
+      <meta itemprop="duration" content="T1M10S" />
+      <meta itemprop="thumbnailUrl" content="example-miniature-image.jpg" />
+      <meta itemprop="contentURL" content="http://www.example-video.com/video123.flv"/>
+      <meta itemprop="embedURL" content="http://www.example-video.com/videoplayer.swf?video=123"/>
+      <meta itemprop="uploadDate" content="2014-01-01T00:01:00+01:00" />
+      <meta itemprop="expires" content="2014-12-31T23:59:00+01:00" />
+      <object ...>
+        <param ...>
+        <embed type="application/x-shockwave-flash" ...>
+      </object>
+      <span itemprop="description">Description of Video</span>
+    </div>
+  </section>
+</main>
+
+  <script src="js/bundle.js"></script>
+</body>
+
+</html>

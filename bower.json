@@ -1,0 +1,15 @@
+{
+  "name": "hm-fall-fashion",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "foundation": "~5.5.3",
+    "bourbon": "~4.2.5"
+  }
+}
